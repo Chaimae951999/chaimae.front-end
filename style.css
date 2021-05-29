@@ -1,0 +1,55 @@
+body{
+    background-color:white;
+}
+
+.tr{
+    background-image: url("img/background.jpg");
+    background-color: red;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon{
+    width: 25px;
+    height: 20px;
+    color:dimgray;
+}
+.rb{
+    border: 1px solid dimgray;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.titre{
+    color: white;
+    text-align: center;
+
+}
+.drop{
+    width: 70%;
+    height: 30px;
+}
+.bg-gry{
+    background-color: rgba(225, 225, 255, 0.5);
+}
+.montant{
+    width: 15%;
+}
+.montant > select{
+    height: 30px;
+}
+.row > sv{
+    width: 30px;
+    height: 30px;
+}
+.card-txt{
+    margin: auto;
+}
+.image > img{
+    width: 120px;
+    height: 120px;
+}
+.footer  p{
+    line-height: 8px;
+}
